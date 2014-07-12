@@ -1,0 +1,49 @@
+1. Criar algo como a Classe Application:
+
+	Application.dependencies.add // Pacote de Classes
+			addFont
+			addStyleSheet
+			addScript
+	
+	Application.setDelegate( ... );
+	Application.run(); //Inicia GUI, carrega Dependencias e chama o Delegate
+
+
+2. Criar Pacotes de Classes por JSON
+Ex: package.json
+{
+	name : "Componentes Visuais 1",
+	
+	classes : [ "myclass1", "myclass2", "myclass3", "myclass4", "myclass5" ]
+
+	dependencies : [
+		//coloca as dependencias do Pacote aqui
+	]
+
+}
+
+
+
+
+3. Simplificar GUI - Colocar GUI, ClassLoader e ClassFoundation em um único JS para distribuição.
+
+
+4. Classes que Ficam da GUI:?
+	gui/view
+	gui/container
+	gui/text
+	gui/image
+	gui/glyph -- Para IconFonts????
+	gui/canvas
+	gui/hover
+
+	gui/brush/linearGradient
+	gui/brush/radialGradient
+	gui/brush/pattern
+	
+	gui/input/text  --Com formatação Números, etc... //Default Types: Tel, URL, EMAIL
+	gui/input/date
+	gui/input/combo
+	gui/input/color
+
+5. Criar componentes básicos

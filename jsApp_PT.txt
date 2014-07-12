@@ -1,0 +1,4 @@
+jsApp é um framework Orientada a Objeto para desenvolvimento de Aplicações em Javascript que rodem sobre Browsers HTML5 ou qualquer outro Motor de Renderização.
+
+É composto de uma Padronização para Criação, Herança e Polimorfismo de Classes em cima do JAVA e composto de uma padronização para criação de Objetos Gráficos, permitindo a criação de Componentes Visuais reutilizáveis e customizáveis.
+

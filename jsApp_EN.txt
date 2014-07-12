@@ -1,0 +1,3 @@
+jsAPP is a Object Oriented UI Framework to Build Powerfull JavaScript Applications, that run under HTML5 Internet Browsers or another Renderer Engines.
+
+É composto por um
