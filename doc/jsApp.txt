@@ -1,0 +1,3 @@
+jsApp is a KIT to develop Client JavaScript UI for HTML5.
+
+Is a Object Oriented UI Framework to Build Powerfull JavaScript Applications, that rundes underHTML5-Browsers or another Renderers.
